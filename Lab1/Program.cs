@@ -1,63 +1,36 @@
 ﻿using System;
 
-public class UserData
+//bai 1
+public static class UserData
 {
-    public int id;
-    public string userName;
-    public int level;
-    public UserData(int id, string userName, int level)
+    public static string UserName;
+    public static int ID;
+    public static float Health;
+    public static int Points;
+
+    static UserData()
     {
-        this.id = id;
-        this.userName = userName;
-        this.level = level;
-    }
-    public void ShowData()
-    {
-        Console.WriteLine("ID: " + id);
-        Console.WriteLine("User Name: " + userName);
-        Console.WriteLine("Level: " + level);
-    }
-    public void ShowData(string name, dynamic attribute)
-    {
-        Console.WriteLine(name +": "+ attribute);
+        UserName = "Hide on bush";
+        ID = 2024;
+        Health = 100.5f;
+        Points = 100;
     }
 }
+
+
+
 public class Program
 {
-   public static void Main(string[] args)
+    static void Main(string[] args)
     {
-        Console.WriteLine("Bai 1a");
-        var x = 10;
-        void bai1a()
-        {
-            Console.WriteLine("x = " + x);
-        }
-        bai1a();
-        Console.WriteLine();
+        //bai 1
+        Console.WriteLine("User Name: " + UserData.UserName);
+        Console.WriteLine("ID: " + UserData.ID);
+        Console.WriteLine("Gold: " + UserData.Health);
+        Console.WriteLine("Points: " + UserData.Points);
 
-        Console.WriteLine("Bai 1b");
-        void getDetail(dynamic value)
-        {
-            Console.WriteLine("Value: "+ value);
-        }
-        void bai1b()
-        {
-            getDetail(10);
-            getDetail("Game");
-            
-        }
-        bai1b();
-        Console.WriteLine();
-
-
-        Console.WriteLine("Bai 1c");
-        UserData userData = new UserData(0, "first player", 10);
-        userData.ShowData("level",userData.level);
-        userData.ShowData("userName",userData.userName);
-        userData.ShowData("id",userData.id);
-        Console.WriteLine();
+        
         
 
     }
-        
 }

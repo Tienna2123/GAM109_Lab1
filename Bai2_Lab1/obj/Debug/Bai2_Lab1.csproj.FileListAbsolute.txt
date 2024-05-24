@@ -1,0 +1,7 @@
+D:\C#\lab1\Bai2_Lab1\obj\Debug\Bai2_Lab1.csproj.AssemblyReference.cache
+D:\C#\lab1\Bai2_Lab1\obj\Debug\Bai2_Lab1.csproj.CoreCompileInputs.cache
+D:\C#\lab1\Bai2_Lab1\bin\Debug\Bai2_Lab1.exe.config
+D:\C#\lab1\Bai2_Lab1\bin\Debug\Bai2_Lab1.exe
+D:\C#\lab1\Bai2_Lab1\bin\Debug\Bai2_Lab1.pdb
+D:\C#\lab1\Bai2_Lab1\obj\Debug\Bai2_Lab1.exe
+D:\C#\lab1\Bai2_Lab1\obj\Debug\Bai2_Lab1.pdb
